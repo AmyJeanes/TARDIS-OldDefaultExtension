@@ -1,0 +1,14 @@
+{
+	"title"		:	"TARDIS Old Default Extension",
+	"type"		:	"vehicle",
+	"tags"		:	[ "roleplay", "fun" ],
+	"ignore"	:
+	[
+		"*.md",
+		"*.txt",
+		"*.git*",
+		"*.fgd",
+		"*.psd",
+		"CODEOWNERS"
+	]
+}
