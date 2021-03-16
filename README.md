@@ -12,7 +12,7 @@ Without these the addon will not function correctly and you may experience error
 Installation
 =
 ### Steam Workshop
-https://steamcommunity.com/sharedfiles/filedetails/?id=xxxxxxxx
+https://steamcommunity.com/sharedfiles/filedetails/?id=2425616806
 
 ### Manual installation
 Remove any previous versions then put this folder into Steam/Steamapps/common/garrysmod/garrysmod/addons/
