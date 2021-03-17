@@ -9,7 +9,7 @@ T.Interior={
 	Sounds={
 		Idle={
 			{
-				path="tardis/interior_idle_loop.wav",
+				path="drmatt/tardis/2012interior/interior_idle_loop.wav",
 				volume=1
 			}
 		}
