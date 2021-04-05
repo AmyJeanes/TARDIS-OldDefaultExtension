@@ -1,6 +1,6 @@
 "VertexLitGeneric"
 {
-	"$basetexture" "models/props_combine/metal_combinebridge001"
+	"$basetexture" "models/drmatt/tardis/2012interior/Standardmaterial"
 	"$translucent" "1"
 	"$nodecal" "1"
 }
