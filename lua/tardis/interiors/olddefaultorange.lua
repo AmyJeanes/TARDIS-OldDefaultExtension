@@ -2,7 +2,7 @@
 
 local T={}
 T.Base="olddefault"
-T.Name="Old Default (Orange)"
+T.IsVersionOf = "olddefault"
 T.ID="olddefaultorange"
 T.Interior={
 	Light={

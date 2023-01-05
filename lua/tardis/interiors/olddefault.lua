@@ -4,6 +4,21 @@ local T={}
 T.Base="base"
 T.Name="Old Default"
 T.ID="olddefault"
+T.Versions = {
+	randomize = true,
+	allow_custom = true,
+	randomize_custom = true,
+
+	main = {
+		id = "olddefault",
+	},
+	other = {
+		{
+			name = "Old Default (Orange)",
+			id = "olddefaultorange",
+		},
+	},
+}
 T.Interior={
 	Model="models/drmatt/tardis/2012interior/interior.mdl",
 	Sounds={
@@ -52,6 +67,12 @@ T.Interior={
 		--Vector(321.86,-308.13,222.5),
 		--Vector(242.69,-366.76,222.5),
 	},
+	Portal = {
+        pos = Vector(-1,-353.5,139),
+        ang = Angle(0,90,0),
+        width = 60,
+        height = 95
+    },
 	Fallback={
 		pos=Vector(0,-330,95),
 		ang=Angle(0,90,0)
@@ -92,7 +113,9 @@ T.Interior={
 		console={
 			model="models/drmatt/tardis/2012interior/console.mdl"
 		},
-		door=true
+		door = {
+            posoffset=Vector(26,0,-54.65)
+        },
 	},
 	--[[
 	CustomPortals={
@@ -116,9 +139,19 @@ T.Interior={
 	--]]
 }
 T.Exterior={
-	Parts={
-		door=true
-	}
+	Parts = {
+		door = {
+            posoffset=Vector(-28,0,-54.6)
+        }
+	},
+	Portal = {
+        pos = Vector(28,0,54.6),
+        ang = Angle(0,0,0),
+        width = 45,
+        height = 92,
+        thickness = 42,
+        inverted = true,
+    },
 }
 
 TARDIS:AddInterior(T)
