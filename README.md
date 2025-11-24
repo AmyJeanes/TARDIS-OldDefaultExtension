@@ -5,7 +5,7 @@ A TARDIS extension containing the old default extension based on the 2013 interi
 Requirements
 =
 This addon requires the following:
-- [TARDIS](https://github.com/MattJeanes/TARDIS)
+- [TARDIS](https://github.com/AmyJeanes/TARDIS)
 
 Without these the addon will not function correctly and you may experience errors.
 
